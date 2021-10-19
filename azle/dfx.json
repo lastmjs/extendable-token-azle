@@ -1,0 +1,8 @@
+
+{
+    "canisters": {
+        "azle": {
+            "main": "azle.mo"
+        }
+    }
+}
