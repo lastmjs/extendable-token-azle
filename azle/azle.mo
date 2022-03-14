@@ -64,8 +64,8 @@ actor class standard_token(init_name: Text, init_symbol: Text, init_decimals: Na
     
     // TODO temporary restriction until compliance and other issues are figured out
     if (
-      sender != "3m4bm-h6vl5-lxosf-oabzl-tdcxf-roedu-r2llk-75qg3-tiylq-snwek-uqe" and
-      sender != "a3a0b065a2af75046f72ebd89f5506ae5e17260248681f2e7d6e83527efa1403"
+      sender != "czmd5-5tvwv-duu4g-2t2om-ocnrj-c74ck-vwgfv-jy2ts-6ourv-wzsgq-5qe" and
+      sender != "2ea12238921c6397f2d880c9798c5a427c774564307fdc91de6a9b7dd01addd7"
     ) {
       return #err(#Other("Transfers are currently disabled"));
     };
